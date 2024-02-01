@@ -3,14 +3,11 @@ import { defaultTheme } from './styles/themes/default'
 import { GlobalStyle } from './styles/global'
 
 export function App() {
-   
   return (
     <ThemeProvider theme={defaultTheme}>
-      <div>
-        Hello
-      </div>
+      <div>Hello</div>
 
-      <GlobalStyle/>
+      <GlobalStyle />
     </ThemeProvider>
-  ) 
+  )
 }
